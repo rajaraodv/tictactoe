@@ -1,7 +1,7 @@
 {
   "name": "Tic Tac Toe on Aura",
   "description": "This example game app helps to learn open-source Aura framework that powers Salesforce Lightning Components",
-  "Salesforce",
+  "keywords": ["Salesforce",
   "Aura",
   "Lightning",
   "Tic Tac Toe"
