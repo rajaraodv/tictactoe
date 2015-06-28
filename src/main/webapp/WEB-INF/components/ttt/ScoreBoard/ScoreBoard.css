@@ -1,0 +1,9 @@
+.THIS.scoreboard{
+  padding: 25px;
+  margin-top: 20px;
+  color: white;
+  background: rgb(42, 148, 214);
+  border-radius: 10px;
+  width: 80%;
+ font-size: 25px    
+}

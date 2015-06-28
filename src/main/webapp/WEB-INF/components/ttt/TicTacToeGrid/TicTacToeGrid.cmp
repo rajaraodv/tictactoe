@@ -1,0 +1,35 @@
+<aura:component >
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:registerEvent name="computerClicked" type="ttt:ComputerClicked"/>
+    <aura:registerEvent name="resetBoard" type="ttt:ResetBoard"/>
+    <aura:registerEvent name="newGame" type="ttt:NewGame"/>
+	<aura:registerEvent name="gameOver" type="ttt:GameOver"/>
+    <br/>
+    <center>
+        <ui:button class='scorebtn' label="New Game" press="{!c.newGame}"/>&nbsp;&nbsp;
+        <ui:button class='scorebtn' label="Reset" press="{!c.reset}"/>
+    </center>
+    <center>
+        <ttt:ScoreBoard />
+    </center>
+    <br/>
+    <center>
+    <div class='table'>
+        <div class="row">
+            <ttt:Tile tileNumber="1"  onTileClicked="{!c.handleTileClicked}"/>
+            <ttt:Tile tileNumber="2"  onTileClicked="{!c.handleTileClicked}"/>
+            <ttt:Tile tileNumber="3"  onTileClicked="{!c.handleTileClicked}"/>
+        </div>
+        <div class="row">
+            <ttt:Tile tileNumber="4"  onTileClicked="{!c.handleTileClicked}"/>
+            <ttt:Tile tileNumber="5"  onTileClicked="{!c.handleTileClicked}"/>
+            <ttt:Tile tileNumber="6"  onTileClicked="{!c.handleTileClicked}"/>
+        </div>
+        <div class="row">
+            <ttt:Tile tileNumber="7"  onTileClicked="{!c.handleTileClicked}"/>
+            <ttt:Tile tileNumber="8"  onTileClicked="{!c.handleTileClicked}"/>
+            <ttt:Tile tileNumber="9"  onTileClicked="{!c.handleTileClicked}"/>
+        </div>
+    </div>
+    </center>
+</aura:component>

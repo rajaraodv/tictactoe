@@ -1,0 +1,14 @@
+{
+  "name": "Tic Tac Toe on Aura",
+  "description": "This example game app helps to learn Salesforces' open-source Aura framework. Aura also powers Salesforce Lightning that runs as part of the platform.",
+  "keywords": [
+  "Salesforce",
+  "Aura",
+  "Lightning",
+  "Tic Tac Toe"
+  ],
+  "website": "https://github.com/forcedotcom/aura",
+  "repository": "https://github.com/jane-doe/small-sharp-tool",
+  "logo": "http://documentation.auraframework.org/auraFW/resources/aura/images/logo.png",
+  "success_url": "/"
+}

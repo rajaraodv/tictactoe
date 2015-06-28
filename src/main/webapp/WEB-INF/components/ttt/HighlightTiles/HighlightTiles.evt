@@ -1,0 +1,3 @@
+<aura:event type="APPLICATION">
+ 	<aura:attribute name="tileNumbers" type="Array"/>
+</aura:event>

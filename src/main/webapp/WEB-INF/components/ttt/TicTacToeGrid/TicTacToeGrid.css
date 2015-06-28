@@ -1,0 +1,17 @@
+.THIS .table {
+    display: table;
+    table-layout: fixed;
+  	width: 100%;
+  	max-height: 500px;
+  	min-height: 300px;
+    border-spacing: 5px;
+}
+
+.THIS .row {
+    display: table-row;
+}
+.THIS .scorebtn {
+    color:white;
+    font-size:50px;
+    border-radius:10px;
+}

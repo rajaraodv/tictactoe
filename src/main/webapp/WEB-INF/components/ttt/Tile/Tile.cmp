@@ -1,0 +1,12 @@
+<aura:component >
+    <aura:attribute name="value" type="String" description="X or O or Tap" default="Tap"/>
+    <aura:attribute name="tileNumber" type="Integer" description="Tile Number 1 - 9"/>
+    <aura:attribute name="isGameOver" type="Boolean" default="false" description="Used to disable the tile after game is over"/>
+    <aura:registerEvent name="onTileClicked" type="ttt:TileClicked"/>
+    <aura:handler event="ttt:ComputerClicked" action="{!c.handleComputerClicked}"/>
+	<aura:handler event="ttt:ResetBoard" action="{!c.handleResetBoard}"/>
+    <aura:handler event="ttt:NewGame" action="{!c.handleNewGame}"/>
+	<aura:handler event="ttt:GameOver" action="{!c.handleGameOver}"/>
+
+	<div class="tile" onclick="{!c.handleClick}">{!v.value}</div>
+</aura:component>

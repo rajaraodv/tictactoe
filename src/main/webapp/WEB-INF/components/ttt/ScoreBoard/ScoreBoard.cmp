@@ -1,0 +1,13 @@
+<aura:component >
+	<aura:attribute name="yourScore" type="Integer" default="0"/>
+    <aura:attribute name="computerScore" type="Integer" default="0"/>
+    <aura:attribute name="message" type="String" default=""/>
+    <aura:handler event="ttt:GameOver" action="{!c.handleGameOver}"/>
+    <aura:handler event="ttt:ResetBoard" action="{!c.handleResetBoard}"/>
+	<aura:handler event="ttt:NewGame" action="{!c.handleNewGame}"/>
+     <div class="scoreboard">
+            <span>You: {!v.yourScore}</span>&nbsp;&nbsp;&nbsp;
+            <span>Computer: {!v.computerScore}</span>
+         	<div>{!v.message}</div>
+     </div>
+</aura:component>
