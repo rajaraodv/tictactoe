@@ -1,7 +1,6 @@
 {
   "name": "Tic Tac Toe on Aura",
-  "description": "This example game app helps to learn Salesforces' open-source Aura framework. Aura also powers Salesforce Lightning that runs as part of the platform.",
-  "keywords": [
+  "description": "This example game app helps to learn open-source Aura framework that powers Salesforce Lightning Components",
   "Salesforce",
   "Aura",
   "Lightning",
