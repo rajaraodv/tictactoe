@@ -1,0 +1,9 @@
+web:
+  build: .
+  expose:
+    - "8080"
+  volumes:
+    - .:/usr/src/app
+    - $HOME/.m2:/root/.m2
+  ports:
+    - "8080:8080"
