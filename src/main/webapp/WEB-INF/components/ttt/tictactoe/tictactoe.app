@@ -1,3 +1,3 @@
-<aura:application >
+<aura:application useAppcache="false" >
     <ttt:TicTacToeGrid />
 </aura:application>

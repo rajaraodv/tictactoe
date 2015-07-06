@@ -1,5 +1,6 @@
 ({
     doInit: function(component, event, helper) {
+        //
       helper.initStates();  
     },
 	handleTileClicked : function(component, event, helper) {

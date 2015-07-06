@@ -1,10 +1,11 @@
-<aura:component >
+<aura:component>
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
     <aura:registerEvent name="computerClicked" type="ttt:ComputerClicked"/>
     <aura:registerEvent name="resetBoard" type="ttt:ResetBoard"/>
     <aura:registerEvent name="newGame" type="ttt:NewGame"/>
 	<aura:registerEvent name="gameOver" type="ttt:GameOver"/>
     <br/>
+    
     <center>
         <ui:button class='scorebtn' label="New Game" press="{!c.newGame}"/>&nbsp;&nbsp;
         <ui:button class='scorebtn' label="Reset" press="{!c.reset}"/>
